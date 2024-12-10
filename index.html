@@ -3,30 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>شركة الأجهزة الكهربائية</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .hero {
+            background: url('images/hero-background.jpg') no-repeat center center/cover;
+            height: 400px;
+            text-align: center;
+            color: white;
+            padding-top: 150px;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .btn-primary {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .products-preview {
+            padding: 50px 0;
+            background-color: #fff;
+        }
+        .products-preview h2 {
+            text-align: center;
+            font-size: 2.5rem;
+        }
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .product {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product h3 {
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
-    <!-- Header -->
-    <header class="main-header">
-        <div class="container">
-            <div class="logo">
-                <img src="images/logo.png" alt="شعار الشركة">
-            </div>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="index.html" class="active">الرئيسية</a></li>
-                    <li><a href="products.html">المنتجات</a></li>
-                    <li><a href="about.html">عن الشركة</a></li>
-                    <li><a href="contact.html">اتصل بنا</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="container">
+        <div>
             <h1>أحدث الأجهزة الكهربائية بأسعار تنافسية</h1>
             <p>جودة استثنائية وخدمة لا مثيل لها.</p>
             <a href="products.html" class="btn-primary">تصفح المنتجات</a>
@@ -38,18 +82,21 @@
         <div class="container">
             <h2>منتجاتنا المميزة</h2>
             <div class="products-grid">
+                <!-- Laptop -->
                 <div class="product">
-                    <img src="images/laptop.jpg" alt="جهاز كمبيوتر محمول">
+                    <img src="https://via.placeholder.com/150?text=Laptop" alt="جهاز كمبيوتر محمول">
                     <h3>جهاز كمبيوتر محمول</h3>
                     <p>سريع وقوي لتلبية احتياجات العمل والدراسة.</p>
                 </div>
+                <!-- Smartphone -->
                 <div class="product">
-                    <img src="images/smartphone.jpg" alt="هاتف ذكي">
+                    <img src="https://via.placeholder.com/150?text=Smartphone" alt="هاتف ذكي">
                     <h3>هاتف ذكي</h3>
                     <p>تكنولوجيا حديثة مع كاميرا رائعة.</p>
                 </div>
+                <!-- Headphones -->
                 <div class="product">
-                    <img src="images/headphones.jpg" alt="سماعات رأس">
+                    <img src="https://via.placeholder.com/150?text=Headphones" alt="سماعات رأس">
                     <h3>سماعات رأس لاسلكية</h3>
                     <p>صوت نقي وتجربة استماع ممتعة.</p>
                 </div>
@@ -57,11 +104,10 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Footer Section -->
     <footer>
-        <div class="container">
-            <p>&copy; 2024 شركة الأجهزة الكهربائية. جميع الحقوق محفوظة.</p>
-        </div>
+        <p>&copy; 2024 شركة الأجهزة الكهربائية. جميع الحقوق محفوظة.</p>
     </footer>
+
 </body>
 </html>
