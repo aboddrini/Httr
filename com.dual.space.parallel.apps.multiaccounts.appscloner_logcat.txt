@@ -1,0 +1,192 @@
+--------- beginning of main
+12-10 16:40:02.068 32026 32049 I DynamiteModule: Considering local module com.google.android.gms.measurement.dynamite:86 and remote module com.google.android.gms.measurement.dynamite:130
+12-10 16:40:02.068 32026 32049 I DynamiteModule: Selected remote version of com.google.android.gms.measurement.dynamite, version >= 130
+12-10 16:40:02.068 32026 32049 V DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+12-10 16:40:02.073 32026 32045 D nativeloader: Configuring clns-6 for other apk /apex/com.android.extservices/javalib/android.ext.adservices.jar. target_sdk_version=34, uses_libraries=ALL, library_path=/data/app/~~3gSB20vaxECZnncFgEC8Ig==/com.google.android.gms-716BiLblb4PA4xXXkttUXg==/lib/arm64:/data/app/~~3gSB20vaxECZnncFgEC8Ig==/com.google.android.gms-716BiLblb4PA4xXXkttUXg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+12-10 16:40:02.073 32026 32045 D nativeloader: Extending system_exposed_libraries: libcamera_algoup_jni.xiaomi.so:libcamera_mianode_jni.xiaomi.so:libvraudio_client.qti.so:libbinauralrenderer_wrapper.qti.so:libhoaeffects.qti.so:libQOC.qti.so:libupdateprof.qti.so:libthermalclient.qti.so:libQOC.qti.so:libdiag_system.qti.so:libqape.qti.so:libqesdk_ndk_platform.qti.so:liblistenjni.qti.so
+12-10 16:40:02.078 32026 32045 D nativeloader: InitApexLibraries:
+12-10 16:40:02.078 32026 32045 D nativeloader:   com_android_appsearch: libicing.so
+12-10 16:40:02.078 32026 32045 D nativeloader:   com_android_art: libartservice.so
+12-10 16:40:02.078 32026 32045 D nativeloader:   com_android_conscrypt: libjavacrypto.so
+12-10 16:40:02.078 32026 32045 D nativeloader:   com_android_extservices: libtflite_support_classifiers_native.so
+12-10 16:40:02.078 32026 32045 D nativeloader:   com_android_mediaprovider: libpdfclient.so
+12-10 16:40:02.078 32026 32045 D nativeloader:   com_android_os_statsd: libstats_jni.so
+12-10 16:40:02.078 32026 32045 D nativeloader:   com_android_tethering: libandroid_net_connectivity_com_android_net_module_util_jni.so:libcrypto.so:libframework-connectivity-jni.so:libframework-connectivity-tiramisu-jni.so:libmainlinecronet.126.0.6423.0.so:libservice-connectivity.so:libservice-thread-jni.so:libssl.so
+12-10 16:40:02.082 32026 32045 D nativeloader: Configuring clns-7 for other apk /system/framework/com.android.media.remotedisplay.jar. target_sdk_version=34, uses_libraries=ALL, library_path=/data/app/~~3gSB20vaxECZnncFgEC8Ig==/com.google.android.gms-716BiLblb4PA4xXXkttUXg==/lib/arm64:/data/app/~~3gSB20vaxECZnncFgEC8Ig==/com.google.android.gms-716BiLblb4PA4xXXkttUXg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+12-10 16:40:02.082 32026 32045 D nativeloader: Extending system_exposed_libraries: libcamera_algoup_jni.xiaomi.so:libcamera_mianode_jni.xiaomi.so:libvraudio_client.qti.so:libbinauralrenderer_wrapper.qti.so:libhoaeffects.qti.so:libQOC.qti.so:libupdateprof.qti.so:libthermalclient.qti.so:libQOC.qti.so:libdiag_system.qti.so:libqape.qti.so:libqesdk_ndk_platform.qti.so:liblistenjni.qti.so
+12-10 16:40:02.090 32026 32045 D nativeloader: Configuring clns-8 for other apk /system/framework/com.android.location.provider.jar. target_sdk_version=34, uses_libraries=ALL, library_path=/data/app/~~3gSB20vaxECZnncFgEC8Ig==/com.google.android.gms-716BiLblb4PA4xXXkttUXg==/lib/arm64:/data/app/~~3gSB20vaxECZnncFgEC8Ig==/com.google.android.gms-716BiLblb4PA4xXXkttUXg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+12-10 16:40:02.090 32026 32045 D nativeloader: Extending system_exposed_libraries: libcamera_algoup_jni.xiaomi.so:libcamera_mianode_jni.xiaomi.so:libvraudio_client.qti.so:libbinauralrenderer_wrapper.qti.so:libhoaeffects.qti.so:libQOC.qti.so:libupdateprof.qti.so:libthermalclient.qti.so:libQOC.qti.so:libdiag_system.qti.so:libqape.qti.so:libqesdk_ndk_platform.qti.so:liblistenjni.qti.so
+12-10 16:40:02.101 32026 32026 I FirebaseInitProvider: FirebaseApp initialization successful
+12-10 16:40:02.102 32026 32045 D nativeloader: Configuring clns-9 for other apk /data/app/~~3gSB20vaxECZnncFgEC8Ig==/com.google.android.gms-716BiLblb4PA4xXXkttUXg==/base.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~3gSB20vaxECZnncFgEC8Ig==/com.google.android.gms-716BiLblb4PA4xXXkttUXg==/lib/arm64:/data/app/~~3gSB20vaxECZnncFgEC8Ig==/com.google.android.gms-716BiLblb4PA4xXXkttUXg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+12-10 16:40:02.112 32026 32049 W System  : ClassLoader referenced unknown path: 
+12-10 16:40:02.113 32026 32049 D nativeloader: Configuring clns-10 for other apk . target_sdk_version=34, uses_libraries=, library_path=/data/app/~~3gSB20vaxECZnncFgEC8Ig==/com.google.android.gms-716BiLblb4PA4xXXkttUXg==/lib/arm64:/data/app/~~3gSB20vaxECZnncFgEC8Ig==/com.google.android.gms-716BiLblb4PA4xXXkttUXg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+12-10 16:40:02.113 32026 32026 D WM-WrkMgrInitializer: Initializing WorkManager with default configuration.
+12-10 16:40:02.147 32026 32071 D CompatibilityChangeReporter: Compat change id reported: 160794467; UID 10023; state: ENABLED
+12-10 16:40:02.161 32026 32045 I DynamiteModule: Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:244410203
+12-10 16:40:02.161 32026 32045 I DynamiteModule: Selected remote version of com.google.android.gms.ads.dynamite, version >= 244410203
+12-10 16:40:02.161 32026 32045 V DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+12-10 16:40:02.202 32026 32026 D nativeloader: Load /data/app/~~uHzhLIpuTRwsU-he6T7HhA==/com.dual.space.parallel.apps.multiaccounts.appscloner-u9BfivPAKDMkVmdrcoaAgw==/split_config.arm64_v8a.apk!/lib/arm64-v8a/libnrb.so using ns clns-4 from class loader (caller=base.apk!classes2.dex): ok
+12-10 16:40:02.203 32026 32075 D native  : Found attached 0
+12-10 16:40:02.203 32026 32075 D native  : Calling class is: java.lang.Class
+12-10 16:40:02.205 32026 32076 D native  : Found attached 0
+12-10 16:40:02.205 32026 32076 D native  : Calling class is: java.lang.Class
+12-10 16:40:02.212 32026 32049 W unts.appsclone: ClassLoaderContext classpath element checksum mismatch. expected=1949575679, found=3676692007 (DLC[];PCL[base.apk*1949575679]{PCL[/system/framework/org.apache.http.legacy.jar*1156398071]#PCL[/apex/com.android.extservices/javalib/android.ext.adservices.jar*2697047424]#PCL[/system/framework/com.android.media.remotedisplay.jar*3472798123]#PCL[/system/framework/com.android.location.provider.jar*3633238672]#PCL[/system/framework/org.apache.http.legacy.jar*1156398071]#PCL[/apex/com.android.extservices/javalib/android.ext.adservices.jar*2697047424]} | DLC[];PCL[/data/app/~~uHzhLIpuTRwsU-he6T7HhA==/com.dual.space.parallel.apps.multiaccounts.appscloner-u9BfivPAKDMkVmdrcoaAgw==/base.apk*3676692007])
+12-10 16:40:02.215 32026 32072 D FBAudienceNetwork: SDK dex loading time: 86
+12-10 16:40:02.251 32026 32045 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000003b/dl-AdsFdrDynamite.integ_244410203100000.dm': No such file or directory
+12-10 16:40:02.251 32026 32045 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/0000003b/dl-AdsFdrDynamite.integ_244410203100000.dm': No such file or directory
+12-10 16:40:02.259 32080 32080 I ppscloner:blac: Using CollectorTypeCC GC.
+12-10 16:40:02.265 32080 32080 E ppscloner:blac: Not starting debugger since process cannot load the jdwp agent.
+12-10 16:40:02.276 32080 32080 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+12-10 16:40:02.289 32080 32080 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10023; state: ENABLED
+12-10 16:40:02.297 32026 32091 E unts.appsclone: No package ID 77 found for ID 0x770b000f.
+12-10 16:40:02.297 32026 32091 E unts.appsclone: No package ID 77 found for ID 0x770b000f.
+12-10 16:40:02.298 32026 32091 I FA      : App measurement initialized, version: 108021
+12-10 16:40:02.298 32026 32091 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+12-10 16:40:02.299 32026 32091 I FA      : To enable faster debug mode event logging run:
+12-10 16:40:02.299 32026 32091 I FA      :   adb shell setprop debug.firebase.analytics.app com.dual.space.parallel.apps.multiaccounts.appscloner
+12-10 16:40:02.323 32080 32080 W ziparchive: Unable to open '/data/app/~~uHzhLIpuTRwsU-he6T7HhA==/com.dual.space.parallel.apps.multiaccounts.appscloner-u9BfivPAKDMkVmdrcoaAgw==/split_config.arm64_v8a.dm': No such file or directory
+12-10 16:40:02.323 32080 32080 W ziparchive: Unable to open '/data/app/~~uHzhLIpuTRwsU-he6T7HhA==/com.dual.space.parallel.apps.multiaccounts.appscloner-u9BfivPAKDMkVmdrcoaAgw==/split_config.arm64_v8a.dm': No such file or directory
+12-10 16:40:02.323 32080 32080 W ppscloner:blac: Entry not found
+12-10 16:40:02.324 32080 32080 W ziparchive: Unable to open '/data/app/~~uHzhLIpuTRwsU-he6T7HhA==/com.dual.space.parallel.apps.multiaccounts.appscloner-u9BfivPAKDMkVmdrcoaAgw==/split_config.xxhdpi.dm': No such file or directory
+12-10 16:40:02.324 32080 32080 W ziparchive: Unable to open '/data/app/~~uHzhLIpuTRwsU-he6T7HhA==/com.dual.space.parallel.apps.multiaccounts.appscloner-u9BfivPAKDMkVmdrcoaAgw==/split_config.xxhdpi.dm': No such file or directory
+12-10 16:40:02.324 32080 32080 W ppscloner:blac: Entry not found
+12-10 16:40:02.325 32080 32080 D nativeloader: Configuring clns-4 for other apk /data/app/~~uHzhLIpuTRwsU-he6T7HhA==/com.dual.space.parallel.apps.multiaccounts.appscloner-u9BfivPAKDMkVmdrcoaAgw==/base.apk:/data/app/~~uHzhLIpuTRwsU-he6T7HhA==/com.dual.space.parallel.apps.multiaccounts.appscloner-u9BfivPAKDMkVmdrcoaAgw==/split_config.arm64_v8a.apk:/data/app/~~uHzhLIpuTRwsU-he6T7HhA==/com.dual.space.parallel.apps.multiaccounts.appscloner-u9BfivPAKDMkVmdrcoaAgw==/split_config.xxhdpi.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~uHzhLIpuTRwsU-he6T7HhA==/com.dual.space.parallel.apps.multiaccounts.appscloner-u9BfivPAKDMkVmdrcoaAgw==/lib/arm64:/data/app/~~uHzhLIpuTRwsU-he6T7HhA==/com.dual.space.parallel.apps.multiaccounts.appscloner-u9BfivPAKDMkVmdrcoaAgw==/base.apk!/lib/arm64-v8a:/data/app/~~uHzhLIpuTRwsU-he6T7HhA==/com.dual.space.parallel.apps.multiaccounts.appscloner-u9BfivPAKDMkVmdrcoaAgw==/split_config.arm64_v8a.apk!/lib/arm64-v8a:/data/app/~~uHzhLIpuTRwsU-he6T7HhA==/com.dual.space.parallel.apps.multiaccounts.appscloner-u9BfivPAKDMkV
+12-10 16:40:02.337 32080 32080 D nativeloader: Load /data/app/~~uHzhLIpuTRwsU-he6T7HhA==/com.dual.space.parallel.apps.multiaccounts.appscloner-u9BfivPAKDMkVmdrcoaAgw==/split_config.arm64_v8a.apk!/lib/arm64-v8a/libpairipcore.so using ns clns-4 from class loader (caller=base.apk!classes4.dex): ok
+12-10 16:40:02.485 32080 32080 V GraphicsEnvironment: ANGLE Developer option for 'com.dual.space.parallel.apps.multiaccounts.appscloner' set to: 'default'
+12-10 16:40:02.485 32080 32080 V GraphicsEnvironment: Updatable production driver is not supported on the device.
+--------- beginning of system
+12-10 16:40:02.488 32080 32080 I ForceDarkHelperStubImpl: initialize for com.dual.space.parallel.apps.multiaccounts.appscloner , ForceDarkOrigin
+12-10 16:40:02.491 32080 32080 D nativeloader: Load libforcedarkimpl.so using system ns (caller=/system/framework/miui-framework.jar): ok
+12-10 16:40:02.492 32080 32080 D OpenGLRenderer: JNI_OnLoad success
+12-10 16:40:02.492 32080 32080 I MiuiForceDarkConfig: setConfig density:2.750000, mainRule:0, secondaryRule:0, tertiaryRule:0
+12-10 16:40:02.493 32080 32080 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+12-10 16:40:02.494 32080 32080 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+12-10 16:40:02.495 32080 32080 I SignatureCheck: Signature check ok
+12-10 16:40:02.500 32080 32080 E BlackBoxCore: Failed to hook bindService: 
+12-10 16:40:02.500 32080 32080 E BlackBoxCore: java.lang.IllegalArgumentException: top.niunaijun.blackbox.fake.frameworks.BActivityManager is not an interface
+12-10 16:40:02.500 32080 32080 E BlackBoxCore: 	at java.lang.reflect.Proxy$ProxyClassFactory.apply(Proxy.java:635)
+12-10 16:40:02.500 32080 32080 E BlackBoxCore: 	at java.lang.reflect.Proxy$ProxyClassFactory.apply(Proxy.java:602)
+12-10 16:40:02.500 32080 32080 E BlackBoxCore: 	at java.lang.reflect.WeakCache$Factory.get(WeakCache.java:230)
+12-10 16:40:02.500 32080 32080 E BlackBoxCore: 	at java.lang.reflect.WeakCache.get(WeakCache.java:127)
+12-10 16:40:02.500 32080 32080 E BlackBoxCore: 	at java.lang.reflect.Proxy.getProxyClass0(Proxy.java:438)
+12-10 16:40:02.500 32080 32080 E BlackBoxCore: 	at java.lang.reflect.Proxy.newProxyInstance(Proxy.java:873)
+12-10 16:40:02.500 32080 32080 E BlackBoxCore: 	at top.niunaijun.blackbox.BlackBoxCore.hookBindService(BlackBoxCore.java:222)
+12-10 16:40:02.500 32080 32080 E BlackBoxCore: 	at top.niunaijun.blackbox.BlackBoxCore.doAttachBaseContext(BlackBoxCore.java:133)
+12-10 16:40:02.500 32080 32080 E BlackBoxCore: 	at com.dual.space.view.main.BlackBoxLoader.attachBaseContext(BlackBoxLoader.kt:100)
+12-10 16:40:02.500 32080 32080 E BlackBoxCore: 	at com.dual.space.app.AppManager.doAttachBaseContext(AppManager.kt:26)
+12-10 16:40:02.500 32080 32080 E BlackBoxCore: 	at com.dual.space.app.MyApplication.attachBaseContext(MyApplication.kt:61)
+12-10 16:40:02.500 32080 32080 E BlackBoxCore: 	at com.pairip.application.Application.attachBaseContext(Unknown Source:6)
+12-10 16:40:02.500 32080 32080 E BlackBoxCore: 	at android.app.Application.attach(Application.java:333)
+12-10 16:40:02.500 32080 32080 E BlackBoxCore: 	at android.app.Instrumentation.newApplication(Instrumentation.java:1178)
+12-10 16:40:02.500 32080 32080 E BlackBoxCore: 	at android.app.LoadedApk.makeApplication(LoadedApk.java:1369)
+12-10 16:40:02.500 32080 32080 E BlackBoxCore: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7022)
+12-10 16:40:02.500 32080 32080 E BlackBoxCore: 	at android.app.ActivityThread.access$1600(ActivityThread.java:271)
+12-10 16:40:02.500 32080 32080 E BlackBoxCore: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2125)
+12-10 16:40:02.500 32080 32080 E BlackBoxCore: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+12-10 16:40:02.500 32080 32080 E BlackBoxCore: 	at android.os.Looper.loopOnce(Looper.java:210)
+12-10 16:40:02.500 32080 32080 E BlackBoxCore: 	at android.os.Looper.loop(Looper.java:299)
+12-10 16:40:02.500 32080 32080 E BlackBoxCore: 	at android.app.ActivityThread.main(ActivityThread.java:8250)
+12-10 16:40:02.500 32080 32080 E BlackBoxCore: 	at java.lang.reflect.Method.invoke(Native Method)
+12-10 16:40:02.500 32080 32080 E BlackBoxCore: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:556)
+12-10 16:40:02.500 32080 32080 E BlackBoxCore: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1045)
+12-10 16:40:02.518 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IAlarmManagerProxy@e387ddd
+12-10 16:40:02.520 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IWindowManagerProxy@4577f4c
+12-10 16:40:02.524 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IPermissionManagerProxy@1648377
+12-10 16:40:02.527 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.ITelephonyRegistryProxy@fa5ec5a
+12-10 16:40:02.529 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.ISystemUpdateProxy@5473867
+12-10 16:40:02.530 32080 32080 D HookManager: hook error: top.niunaijun.blackbox.fake.service.ISystemUpdateProxy@5473867
+12-10 16:40:02.530 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IConnectivityManagerProxy@a15acb2
+12-10 16:40:02.535 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IAccountManagerProxy@ef17875
+12-10 16:40:02.537 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IAccessibilityManagerProxy@faa32d6
+12-10 16:40:02.539 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.INotificationManagerProxy@3c9c329
+12-10 16:40:02.542 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.context.RestrictionsManagerStub@b023fdc
+12-10 16:40:02.543 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.ILauncherAppsProxy@c85ae61
+12-10 16:40:02.544 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IContextHubServiceProxy@8916c12
+12-10 16:40:02.548 32080 32080 D HookManager: hook error: top.niunaijun.blackbox.fake.service.IContextHubServiceProxy@8916c12
+12-10 16:40:02.548 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IAppOpsManagerProxy@5fcc899
+12-10 16:40:02.553 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IDevicePolicyManagerProxy@885f1d1
+12-10 16:40:02.559 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IMediaSessionManagerProxy@108fdc2
+12-10 16:40:02.562 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IActivityTaskManagerProxy@12f9e2f
+12-10 16:40:02.567 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IFingerprintManagerProxy@d8f607d
+12-10 16:40:02.570 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IWifiManagerProxy@994bcbe
+12-10 16:40:02.575 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.ITelephonyManagerProxy@8af003b
+12-10 16:40:02.580 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IDeviceIdentifiersPolicyProxy@5893d04
+12-10 16:40:02.582 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IAutofillManagerProxy@40b40e9
+12-10 16:40:02.584 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IActivityManagerProxy@869289c
+12-10 16:40:02.589 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IAppWidgetManagerProxy@744a046
+12-10 16:40:02.590 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IStorageManagerProxy@41e77a3
+12-10 16:40:02.592 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IVpnManagerProxy@915f0cc
+12-10 16:40:02.595 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.INetworkManagementServiceProxy@7ea5791
+12-10 16:40:02.597 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.context.ContentServiceStub@6533c82
+12-10 16:40:02.598 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IVibratorServiceProxy@c4691ef
+12-10 16:40:02.600 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IPackageManagerProxy@fd594e8
+12-10 16:40:02.604 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IMediaRouterServiceProxy@7a8cfe7
+12-10 16:40:02.606 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IJobServiceProxy@8a41900
+12-10 16:40:02.606 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IWifiScannerProxy@ccc8bf5
+12-10 16:40:02.607 32080 32080 D HookManager: hook error: top.niunaijun.blackbox.fake.service.IWifiScannerProxy@ccc8bf5
+12-10 16:40:02.607 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.HCallbackProxy@a3a6d8a
+12-10 16:40:02.608 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IShortcutManagerProxy@dd9d856
+12-10 16:40:02.610 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IGraphicsStatsProxy@f815373
+12-10 16:40:02.611 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.ILocationManagerProxy@f6fc230
+12-10 16:40:02.613 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.delegate.AppInstrumentation@a195c65
+12-10 16:40:02.613 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IActivityClientProxy@2114d3a
+12-10 16:40:02.617 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IDisplayManagerProxy@e65ff63
+12-10 16:40:02.621 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.libcore.OsStub@731f7db
+12-10 16:40:02.623 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IPhoneSubInfoProxy@54c39b6
+12-10 16:40:02.624 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IPowerManagerProxy@e289d8d
+12-10 16:40:02.625 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IUserManagerProxy@e54c98e
+12-10 16:40:02.626 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IPersistentDataBlockServiceProxy@cdc8dcb
+12-10 16:40:02.628 32080 32080 D HookManager: hook error: top.niunaijun.blackbox.fake.service.IPersistentDataBlockServiceProxy@cdc8dcb
+12-10 16:40:02.628 32080 32080 D HookManager: hook: top.niunaijun.blackbox.fake.service.IStorageStatsManagerProxy@3347c66
+12-10 16:40:02.953 32080 32080 D Settings: loaded Package: com.tencent.mm
+12-10 16:40:02.968 32080 32080 D BroadcastManager: register: com.tencent.mm, size: 43
+12-10 16:40:02.969 32080 32080 D CompatibilityChangeReporter: Compat change id reported: 160794467; UID 10023; state: ENABLED
+12-10 16:40:02.991 32080 32080 D ActivityThread: Loading provider com.dual.space.parallel.apps.multiaccounts.appscloner.blackbox.SystemCallProvider: top.niunaijun.blackbox.core.system.SystemCallProvider
+12-10 16:40:02.991 32080 32080 D SystemCallProvider: call: VM, Bundle[{_B_|_server_name_=package_manager}]
+12-10 16:40:02.991 32080 32080 D BlackBoxCore: getService: package_manager, top.niunaijun.blackbox.core.system.pm.BPackageManagerService@730969d
+12-10 16:40:02.999 32080 32092 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=88]
+12-10 16:40:02.999 32026 32026 D BlackBoxCore: getService: activity_manager, android.os.BinderProxy@969b5b5
+12-10 16:40:02.999 32080 32092 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=76]
+12-10 16:40:03.000 32026 32026 D BlackBoxCore: getService: job_manager, android.os.BinderProxy@65db44a
+12-10 16:40:03.000 32080 32092 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=84]
+12-10 16:40:03.000 32026 32026 D BlackBoxCore: getService: package_manager, android.os.BinderProxy@e107fbb
+12-10 16:40:03.000 32080 32092 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=84]
+12-10 16:40:03.000 32026 32026 D BlackBoxCore: getService: storage_manager, android.os.BinderProxy@9938cd8
+12-10 16:40:03.001 32080 32092 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=80]
+12-10 16:40:03.001 32026 32026 D BlackBoxCore: getService: user_manager, android.os.BinderProxy@fccf831
+12-10 16:40:03.001 32080 32092 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=84]
+12-10 16:40:03.001 32026 32026 D BlackBoxCore: getService: xposed_manager, android.os.BinderProxy@4cacb16
+12-10 16:40:03.001 32080 32092 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=84]
+12-10 16:40:03.002 32026 32026 D BlackBoxCore: getService: account_manager, android.os.BinderProxy@d3d5c97
+12-10 16:40:03.002 32080 32092 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=88]
+12-10 16:40:03.002 32026 32026 D BlackBoxCore: getService: location_manager, android.os.BinderProxy@9209e84
+12-10 16:40:03.002 32080 32092 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=96]
+12-10 16:40:03.003 32026 32026 D BlackBoxCore: getService: notification_manager, android.os.BinderProxy@147e66d
+12-10 16:40:03.008 32026 32026 W Looper  : PerfMonitor longMsg : seq=2 plan=١٦:٤٠:٠١.٦٧٨ late=4ms wall=1325ms running=0ms h=android.app.ActivityThread$H w=110 procState=-1
+12-10 16:40:03.010 32080 32080 I FirebaseApp: Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+12-10 16:40:03.021 32080 32080 I FirebaseCrashlytics: Initializing Firebase Crashlytics 18.2.12 for com.dual.space.parallel.apps.multiaccounts.appscloner
+12-10 16:40:03.037 32080 32107 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000019/DynamiteLoader.uncompressed.dm': No such file or directory
+12-10 16:40:03.038 32080 32107 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000019/DynamiteLoader.uncompressed.dm': No such file or directory
+12-10 16:40:03.047 32080 32107 I DynamiteModule: Considering local module com.google.android.gms.measurement.dynamite:86 and remote module com.google.android.gms.measurement.dynamite:130
+12-10 16:40:03.048 32080 32107 I DynamiteModule: Selected remote version of com.google.android.gms.measurement.dynamite, version >= 130
+12-10 16:40:03.048 32080 32107 V DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+12-10 16:40:03.077 32080 32107 W System  : ClassLoader referenced unknown path: 
+12-10 16:40:03.078 32080 32107 D nativeloader: Configuring clns-5 for other apk . target_sdk_version=34, uses_libraries=, library_path=/data/app/~~3gSB20vaxECZnncFgEC8Ig==/com.google.android.gms-716BiLblb4PA4xXXkttUXg==/lib/arm64:/data/app/~~3gSB20vaxECZnncFgEC8Ig==/com.google.android.gms-716BiLblb4PA4xXXkttUXg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+12-10 16:40:03.101 32080 32107 W ppscloner:blac: ClassLoaderContext classpath element checksum mismatch. expected=1949575679, found=3676692007 (DLC[];PCL[base.apk*1949575679]{PCL[/system/framework/org.apache.http.legacy.jar*1156398071]#PCL[/apex/com.android.extservices/javalib/android.ext.adservices.jar*2697047424]#PCL[/system/framework/com.android.media.remotedisplay.jar*3472798123]#PCL[/system/framework/com.android.location.provider.jar*3633238672]#PCL[/system/framework/org.apache.http.legacy.jar*1156398071]#PCL[/apex/com.android.extservices/javalib/android.ext.adservices.jar*2697047424]} | DLC[];PCL[/data/app/~~uHzhLIpuTRwsU-he6T7HhA==/com.dual.space.parallel.apps.multiaccounts.appscloner-u9BfivPAKDMkVmdrcoaAgw==/base.apk*3676692007])
+12-10 16:40:03.126 32026 32091 I FA      : Tag Manager is not found and thus will not be used
+12-10 16:40:03.130 32026 32134 W FirebaseMessaging: Missing Default Notification Channel metadata in AndroidManifest. Default value will be used.
+12-10 16:40:03.191 32080 32136 E ppscloner:blac: No package ID 77 found for ID 0x770b000f.
+12-10 16:40:03.191 32080 32136 E ppscloner:blac: No package ID 77 found for ID 0x770b000f.
+12-10 16:40:03.193 32080 32136 I FA      : App measurement initialized, version: 108021
+12-10 16:40:03.193 32080 32136 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+12-10 16:40:03.193 32080 32136 I FA      : To enable faster debug mode event logging run:
+12-10 16:40:03.193 32080 32136 I FA      :   adb shell setprop debug.firebase.analytics.app com.dual.space.parallel.apps.multiaccounts.appscloner
+12-10 16:40:03.214 32080 32136 W GmsClient: unable to connect to service: com.google.android.gms.measurement.START on com.google.android.gms
+12-10 16:40:03.215 32080 32080 W FA      : Service connection failed: ci{statusCode=API_UNAVAILABLE, resolution=null, message=null}
+12-10 16:40:03.218 32080 32136 W GmsClient: unable to connect to service: com.google.android.gms.measurement.START on com.google.android.gms
+12-10 16:40:03.218 32080 32080 W FA      : Service connection failed: ci{statusCode=API_UNAVAILABLE, resolution=null, message=null}
+12-10 16:40:03.220 32080 32136 W GmsClient: unable to connect to service: com.google.android.gms.measurement.START on com.google.android.gms
+12-10 16:40:03.221 32080 32080 W FA      : Service connection failed: ci{statusCode=API_UNAVAILABLE, resolution=null, message=null}
+12-10 16:40:03.221 32080 32136 E FA      : Discarding data. Failed to send app launch
+12-10 16:40:03.221 32080 32136 E FA      : Failed to get app instance id
+12-10 16:40:03.221 32080 32136 E FA      : Failed to send default event parameters to service
