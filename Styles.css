@@ -1,4 +1,4 @@
-/* الأساسيات */
+/* القواعد الأساسية */
 * {
     margin: 0;
     padding: 0;
@@ -7,94 +7,115 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
+    color: #333;
     background-color: #f9f9f9;
 }
 
-/* الرأس */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/* الحاوية العامة */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
-header .logo {
-    font-size: 1.5rem;
+
+/* الهيدر */
+.main-header {
+    background: #0078D7;
+    color: #fff;
+    padding: 1rem 0;
+}
+.main-header .logo {
+    font-size: 1.8rem;
     font-weight: bold;
 }
-header nav ul {
+.main-header nav ul {
     list-style: none;
     display: flex;
+    justify-content: center;
+    gap: 20px;
 }
-header nav ul li {
-    margin-left: 20px;
-}
-header nav ul li a {
-    color: #fff;
+.main-header nav ul li a {
     text-decoration: none;
-    padding: 0.5rem;
-    transition: background-color 0.3s;
-}
-header nav ul li a:hover {
-    background-color: #575757;
-    border-radius: 5px;
-}
-
-/* شريط التمرير */
-.slider {
-    position: relative;
-    overflow: hidden;
-    margin: 2rem 0;
-}
-.slides {
-    display: flex;
-    width: 200%;
-    animation: slide 10s infinite;
-}
-.slide {
-    width: 100%;
-    position: relative;
-}
-.slide img {
-    width: 100%;
-    height: auto;
-}
-.caption {
-    position: absolute;
-    bottom: 10%;
-    left: 5%;
-    background: rgba(0, 0, 0, 0.6);
     color: #fff;
-    padding: 10px;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
     border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+.main-header nav ul li a:hover, 
+.main-header nav ul li a.active {
+    background: #fff;
+    color: #0078D7;
 }
 
-/* ميزات */
-.features {
+/* القسم الرئيسي */
+.hero {
+    background: linear-gradient(to right, #0078D7, #00A2E8);
+    color: #fff;
     text-align: center;
-    margin: 2rem 0;
+    padding: 4rem 1rem;
+}
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.hero .btn-primary {
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    background: #fff;
+    color: #0078D7;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+.hero .btn-primary:hover {
+    background: #0056A3;
+    color: #fff;
+}
+
+/* الميزات */
+.features {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 2rem 0;
 }
 .features h2 {
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
 }
 .feature {
-    margin: 1rem 0;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.feature:hover {
+    transform: translateY(-10px);
+}
+.feature img {
+    width: 80px;
+    margin-bottom: 1rem;
+}
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 
-/* الحواشي */
+/* الفوتر */
 footer {
-    background-color: #333;
+    background: #333;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
     margin-top: 2rem;
-}
-
-/* الحركات */
-@keyframes slide {
-    0% { transform: translateX(0); }
-    50% { transform: translateX(-100%); }
-    100% { transform: translateX(0); }
 }

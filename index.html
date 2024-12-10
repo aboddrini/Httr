@@ -7,47 +7,59 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="logo">شركة الأجهزة الكهربائية</div>
-        <nav>
-            <ul>
-                <li><a href="index.html">الرئيسية</a></li>
-                <li><a href="products.html">المنتجات</a></li>
-                <li><a href="about.html">عن الشركة</a></li>
-                <li><a href="contact.html">اتصل بنا</a></li>
-            </ul>
-        </nav>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">شركة الأجهزة الكهربائية</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">الرئيسية</a></li>
+                    <li><a href="products.html">المنتجات</a></li>
+                    <li><a href="about.html">عن الشركة</a></li>
+                    <li><a href="contact.html">اتصل بنا</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section class="slider">
-            <div class="slides">
-                <div class="slide">
-                    <img src="images/slide1.jpg" alt="عرض خاص">
-                    <div class="caption">أفضل الأجهزة بأسعار منافسة!</div>
-                </div>
-                <div class="slide">
-                    <img src="images/slide2.jpg" alt="منتج مميز">
-                    <div class="caption">اكتشف منتجاتنا المميزة.</div>
-                </div>
-            </div>
-        </section>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>أحدث الأجهزة الكهربائية بأسعار تنافسية</h1>
+            <p>نقدم لك جودة فائقة وتقنيات متقدمة لتلبية احتياجاتك اليومية.</p>
+            <a href="products.html" class="btn-primary">تصفح المنتجات</a>
+        </div>
+    </section>
 
-        <section class="features">
-            <h2>لماذا نحن؟</h2>
-            <div class="feature">
-                <h3>منتجات عالية الجودة</h3>
-                <p>نوفر أحدث الأجهزة بأفضل المعايير.</p>
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2>لماذا تختارنا؟</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <img src="images/quality.png" alt="الجودة">
+                    <h3>جودة عالية</h3>
+                    <p>نوفر أجهزة بمعايير عالمية لتلبية احتياجاتك.</p>
+                </div>
+                <div class="feature">
+                    <img src="images/support.png" alt="الدعم الفني">
+                    <h3>دعم فني</h3>
+                    <p>فريق متخصص جاهز لمساعدتك على مدار الساعة.</p>
+                </div>
+                <div class="feature">
+                    <img src="images/warranty.png" alt="ضمان شامل">
+                    <h3>ضمان شامل</h3>
+                    <p>ضمان لمدة عامين على جميع المنتجات.</p>
+                </div>
             </div>
-            <div class="feature">
-                <h3>خدمة عملاء مميزة</h3>
-                <p>نحن هنا لمساعدتك في كل الأوقات.</p>
-            </div>
-        </section>
-    </main>
+        </div>
+    </section>
 
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 شركة الأجهزة الكهربائية. جميع الحقوق محفوظة.</p>
+        <div class="container">
+            <p>&copy; 2024 شركة الأجهزة الكهربائية. جميع الحقوق محفوظة.</p>
+        </div>
     </footer>
 </body>
 </html>
