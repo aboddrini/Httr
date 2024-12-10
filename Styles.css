@@ -8,7 +8,7 @@ body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f9f9f9;
+    background-color: #f0f0f0;
 }
 
 /* الحاوية العامة */
@@ -20,13 +20,13 @@ body {
 
 /* الهيدر */
 .main-header {
-    background: #0078D7;
+    background: #2C3E50;
     color: #fff;
     padding: 1rem 0;
 }
-.main-header .logo {
-    font-size: 1.8rem;
-    font-weight: bold;
+.main-header .logo img {
+    width: 150px;
+    height: auto;
 }
 .main-header nav ul {
     list-style: none;
@@ -45,79 +45,71 @@ body {
 .main-header nav ul li a:hover, 
 .main-header nav ul li a.active {
     background: #fff;
-    color: #0078D7;
+    color: #2C3E50;
 }
 
 /* القسم الرئيسي */
 .hero {
-    background: linear-gradient(to right, #0078D7, #00A2E8);
+    background: url('images/hero-background.jpg') no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 4rem 1rem;
-    background-image: url('images/laptop-banner.jpg');
-    background-size: cover;
-    background-position: center;
 }
 .hero h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
 }
 .hero p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-bottom: 2rem;
 }
 .hero .btn-primary {
     text-decoration: none;
-    padding: 0.8rem 1.5rem;
-    background: #fff;
-    color: #0078D7;
+    padding: 0.8rem 2rem;
+    background: #FF5722;
+    color: #fff;
     font-weight: bold;
     border-radius: 5px;
     transition: background 0.3s, color 0.3s;
 }
 .hero .btn-primary:hover {
-    background: #0056A3;
-    color: #fff;
+    background: #E64A19;
 }
 
-/* الميزات */
-.features {
-    background: #f4f4f4;
+/* منتجاتنا */
+.products-preview {
+    background: #ffffff;
     text-align: center;
-    padding: 2rem 0;
+    padding: 3rem 1rem;
 }
-.features h2 {
-    font-size: 2rem;
+.products-preview h2 {
+    font-size: 2.5rem;
     margin-bottom: 2rem;
 }
-.features-grid {
+.products-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.5rem;
+    gap: 2rem;
 }
-.feature {
-    background: #fff;
+.product {
+    background: #f7f7f7;
     padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
 }
-.feature:hover {
-    transform: translateY(-10px);
-}
-.feature img {
+.product img {
     width: 100%;
     height: auto;
     margin-bottom: 1rem;
 }
-.feature h3 {
-    font-size: 1.5rem;
+.product h3 {
+    font-size: 1.8rem;
     margin-bottom: 0.5rem;
 }
 
 /* الفوتر */
 footer {
-    background: #333;
+    background: #2C3E50;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
