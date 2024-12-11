@@ -7,30 +7,50 @@
     <title>شركة الأجهزة الكهربائية</title>
     <link rel="stylesheet" href="styles.css">
     <style>
+        /* إعدادات أساسية */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f9f9f9;
+            color: #333;
         }
+        a {
+            text-decoration: none;
+        }
+
+        /* شريط البطل */
         .hero {
-            background: url('images/hero-background.jpg') no-repeat center center/cover;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+            url('images/hero-background.jpg') no-repeat center center/cover;
             height: 400px;
             text-align: center;
             color: white;
-            padding-top: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
         .hero h1 {
             font-size: 3rem;
-            margin: 0;
+            margin: 10px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin: 10px;
         }
         .btn-primary {
             padding: 10px 20px;
-            background-color: #333;
+            background-color: #ff6600;
             color: white;
-            text-decoration: none;
             border-radius: 5px;
+            transition: background-color 0.3s ease;
         }
+        .btn-primary:hover {
+            background-color: #e55500;
+        }
+
+        /* قسم المنتجات */
         .products-preview {
             padding: 50px 0;
             background-color: #fff;
@@ -38,37 +58,57 @@
         .products-preview h2 {
             text-align: center;
             font-size: 2.5rem;
+            color: #444;
+            margin-bottom: 30px;
         }
         .products-grid {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 30px;
-            margin-top: 30px;
+            padding: 0 20px;
         }
         .product {
+            background: #fdfdfd;
             text-align: center;
             padding: 20px;
             border: 1px solid #ddd;
-            border-radius: 5px;
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .product:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
         .product img {
             width: 100%;
             height: auto;
+            border-radius: 8px;
         }
         .product h3 {
-            margin: 20px 0;
+            font-size: 1.5rem;
+            margin: 15px 0;
+            color: #333;
         }
+        .product p {
+            color: #777;
+        }
+
+        /* الفوتر */
         footer {
             background-color: #333;
             color: white;
             text-align: center;
             padding: 20px;
         }
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
     </style>
 </head>
 <body>
 
-    <!-- Hero Section -->
+    <!-- قسم البطل -->
     <section class="hero">
         <div>
             <h1>أحدث الأجهزة الكهربائية بأسعار تنافسية</h1>
@@ -77,26 +117,26 @@
         </div>
     </section>
 
-    <!-- Products Preview Section -->
+    <!-- قسم عرض المنتجات -->
     <section class="products-preview">
         <div class="container">
             <h2>منتجاتنا المميزة</h2>
             <div class="products-grid">
-                <!-- Laptop -->
+                <!-- منتج 1 -->
                 <div class="product">
-                    <img src="file:///storage/emulated/0/Download/images.jpeg" alt="جهاز كمبيوتر محمول">
+                    <img src="images/laptop.jpg" alt="جهاز كمبيوتر محمول">
                     <h3>جهاز كمبيوتر محمول</h3>
                     <p>سريع وقوي لتلبية احتياجات العمل والدراسة.</p>
                 </div>
-                <!-- Smartphone -->
+                <!-- منتج 2 -->
                 <div class="product">
-                    <img src="https://via.placeholder.com/150?text=Smartphone" alt="هاتف ذكي">
+                    <img src="images/smartphone.jpg" alt="هاتف ذكي">
                     <h3>هاتف ذكي</h3>
                     <p>تكنولوجيا حديثة مع كاميرا رائعة.</p>
                 </div>
-                <!-- Headphones -->
+                <!-- منتج 3 -->
                 <div class="product">
-                    <img src="https://via.placeholder.com/150?text=Headphones" alt="سماعات رأس">
+                    <img src="images/headphones.jpg" alt="سماعات رأس لاسلكية">
                     <h3>سماعات رأس لاسلكية</h3>
                     <p>صوت نقي وتجربة استماع ممتعة.</p>
                 </div>
@@ -104,7 +144,7 @@
         </div>
     </section>
 
-    <!-- Footer Section -->
+    <!-- الفوتر -->
     <footer>
         <p>&copy; 2024 شركة الأجهزة الكهربائية. جميع الحقوق محفوظة.</p>
     </footer>
