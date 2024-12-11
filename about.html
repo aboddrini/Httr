@@ -3,28 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>عن الشركة</title>
+    <title>عن الشركة - شركة الأجهزة الكهربائية</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* إعدادات عامة */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        /* الهيدر */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+        }
+        header nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        header nav ul li {
+            margin: 0 15px;
+        }
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 5px 10px;
+            transition: background-color 0.3s ease;
+        }
+        header nav ul li a.active,
+        header nav ul li a:hover {
+            background-color: #ff6600;
+            border-radius: 5px;
+        }
+
+        /* العنوان الرئيسي */
+        .about-header {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                        url('images/about-bg.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .about-header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .about-header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        /* قسم المحتوى */
+        .about-content {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .about-content h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #444;
+        }
+        .about-content p {
+            font-size: 1.1rem;
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+        .about-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        /* الفوتر */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
+    <!-- الهيدر -->
     <header>
         <nav>
             <ul>
                 <li><a href="index.html">الصفحة الرئيسية</a></li>
                 <li><a href="products.html">المنتجات</a></li>
-                <li><a href="about.html">عن الشركة</a></li>
+                <li><a href="about.html" class="active">عن الشركة</a></li>
                 <li><a href="contact.html">اتصل بنا</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <h1>عن شركة الأجهزة الكهربائية</h1>
-        <p>نحن شركة متخصصة في بيع الأجهزة الكهربائية ذات الجودة العالية.</p>
-    </main>
+    <!-- العنوان الرئيسي -->
+    <section class="about-header">
+        <h1>عن شركتنا</h1>
+        <p>رؤيتنا تقديم أفضل الأجهزة الكهربائية بأعلى جودة.</p>
+    </section>
 
+    <!-- المحتوى -->
+    <section class="about-content">
+        <h2>من نحن</h2>
+        <p>نحن شركة متخصصة في بيع الأجهزة الكهربائية الحديثة. نسعى دائمًا لتقديم أفضل الحلول المنزلية والتجارية لتلبية احتياجات عملائنا. تأسست شركتنا على مبادئ الجودة، الابتكار، وخدمة العملاء.</p>
+        <img src="images/about-team.jpg" alt="فريق العمل">
+        <h2>قيمنا</h2>
+        <p>نسعى لتحقيق رضا العملاء من خلال تقديم منتجات موثوقة وخدمة استثنائية. نؤمن بالابتكار المستمر لتلبية احتياجات السوق المتغيرة.</p>
+    </section>
+
+    <!-- الفوتر -->
     <footer>
-        <p>&copy; 2024 شركة الأجهزة الكهربائية</p>
+        <p>&copy; 2024 شركة الأجهزة الكهربائية. جميع الحقوق محفوظة.</p>
     </footer>
 </body>
 </html>

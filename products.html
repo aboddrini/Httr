@@ -3,34 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>منتجاتنا</title>
-    <link rel="stylesheet" href="style.css">
+    <title>منتجاتنا - شركة الأجهزة الكهربائية</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* إعدادات عامة */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        /* الهيدر */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        header .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        header nav ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        header nav ul li {
+            margin: 0 15px;
+        }
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 5px 10px;
+            transition: background-color 0.3s ease;
+        }
+        header nav ul li a.active,
+        header nav ul li a:hover {
+            background-color: #ff6600;
+            border-radius: 5px;
+        }
+
+        /* قسم المنتجات */
+        .products {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .products h1 {
+            font-size: 2.5rem;
+            color: #444;
+            margin-bottom: 30px;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 0 20px;
+        }
+        .product {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            text-align: center;
+            padding: 20px;
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
+        }
+        .product:hover {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transform: scale(1.05);
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .product h2 {
+            font-size: 1.5rem;
+            margin: 15px 0;
+            color: #333;
+        }
+        .product p {
+            font-size: 1rem;
+            color: #777;
+        }
+
+        /* الفوتر */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
+    <!-- الهيدر -->
     <header>
         <div class="logo">شركة الأجهزة الكهربائية</div>
         <nav>
             <ul>
                 <li><a href="index.html">الرئيسية</a></li>
-                <li><a href="products.html">المنتجات</a></li>
+                <li><a href="products.html" class="active">المنتجات</a></li>
                 <li><a href="about.html">عن الشركة</a></li>
                 <li><a href="contact.html">اتصل بنا</a></li>
             </ul>
         </nav>
     </header>
+
+    <!-- قسم المنتجات -->
     <main>
         <section class="products">
             <h1>منتجاتنا</h1>
-            <div class="product">
-                <h2>ثلاجة</h2>
-                <p>أفضل الثلاجات للحفاظ على طعامك طازجاً.</p>
-            </div>
-            <div class="product">
-                <h2>غسالة</h2>
-                <p>غسالة بتقنيات حديثة لتوفير الطاقة.</p>
+            <div class="product-grid">
+                <!-- المنتج 1 -->
+                <div class="product">
+                    <img src="images/fridge.jpg" alt="ثلاجة">
+                    <h2>ثلاجة</h2>
+                    <p>أفضل الثلاجات للحفاظ على طعامك طازجاً.</p>
+                </div>
+                <!-- المنتج 2 -->
+                <div class="product">
+                    <img src="images/washing-machine.jpg" alt="غسالة">
+                    <h2>غسالة</h2>
+                    <p>غسالة بتقنيات حديثة لتوفير الطاقة.</p>
+                </div>
+                <!-- المنتج 3 -->
+                <div class="product">
+                    <img src="images/microwave.jpg" alt="ميكروويف">
+                    <h2>ميكروويف</h2>
+                    <p>ميكروويف متطور لإعداد الطعام بسهولة.</p>
+                </div>
             </div>
         </section>
     </main>
+
+    <!-- الفوتر -->
     <footer>
         <p>&copy; 2024 شركة الأجهزة الكهربائية. جميع الحقوق محفوظة.</p>
     </footer>
